@@ -82,50 +82,75 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: 'MistryMessage',
-    des: 'Send and Recieve Anonymous message',
-    img: '/mistrymessage.png',
-    iconLists: [
-      '/next.svg',
-      '/re.svg',
-      '/tail.svg',
-      '/ts.svg',
-      '/resend-icon-white.png',
-    ],
-    link: 'https://aryan-aap.github.io/',
+    title: 'AI-Based Forest Degradation Monitoring Framework',
+    des: 'Comprehensive web framework using AI and remote sensing for monitoring forest degradation - Major Project',
+    img: '/forest-monitoring.png', // You'll need to add this image
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg', '/ai-icon.svg'],
+    link: '', // No link as it's your major project
   },
   {
     id: 2,
+    title: 'PolicyPal - AI Insurance Assistant',
+    des: 'AI-powered insurance assistant that analyzes policies, extracts key fields, and provides recommendations using Gemini and LangChain',
+    img: '/policypal.png', // You'll need to add this image
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg', '/gemini-icon.svg'],
+    link: 'https://github.com/pardeshiaryan/PolicyPal',
+  },
+  {
+    id: 3,
+    title: 'Token Vesting Smart Contract',
+    des: 'Solana-based token vesting platform built with Anchor framework for gradual token releases with cliff periods',
+    img: '/token-vesting.png', // You'll need to add this image
+    iconLists: ['/next.svg', '/re.svg', '/rust-icon.svg', '/solana-icon.svg'],
+    link: 'https://github.com/pardeshiaryan/Token-Vesting',
+  },
+  {
+    id: 4,
+    title: 'AudioCheck - Call Bot QA System',
+    des: 'Real-time quality assurance for call bots with sentiment analysis, emotion detection, and profanity filtering using Whisper AI',
+    img: '/audiocheck.png', // You'll need to add this image
+    iconLists: ['/Django.png', '/ai-icon.svg', '/whisper-icon.svg'],
+    link: 'https://github.com/pardeshiaryan/Audiocheck',
+  },
+  {
+    id: 5,
+    title: 'Notion Clone',
+    des: 'Full-featured Notion workspace clone with real-time collaboration and document management',
+    img: '/notion-clone.png', // You'll need to add this image
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg'],
+    link: 'https://github.com/pardeshiaryan/Notion-Clone',
+  },
+  {
+    id: 6,
+    title: 'MistryMessage',
+    des: 'Send and receive anonymous messages securely',
+    img: '/mistrymessage.png',
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg', '/resend-icon-white.png'],
+    link: 'https://aryan-aap.github.io/',
+  },
+  {
+    id: 7,
     title: 'Portfolio Website',
-    des: 'Yes i also conisder it to be a good design showcase have used NEXTJS to build it i know its Overkill haa.',
+    des: 'Modern portfolio website built with Next.js showcasing projects and skills with smooth animations',
     img: '/portfolioImage.png',
     iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg'],
     link: 'https://truefeedback.in/',
   },
   {
-    id: 4,
-    title: 'Gate Quiz app',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+    id: 8,
+    title: 'Gate Quiz App',
+    des: 'Interactive quiz application for GATE exam preparation built with Django',
     img: '/gate.png',
     iconLists: ['/Django.png', '/tail.svg'],
     link: 'https://github.com/Aryan-AAP/Python-mini-project',
   },
-
   {
-    id: 3,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
+    id: 9,
+    title: 'Animated Apple iPhone 3D Website',
+    des: 'Recreation of Apple iPhone 15 Pro website with GSAP animations and Three.js 3D effects',
     img: '/p4.svg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
     link: 'https://iphone-doc.vercel.app/',
-  },
-  {
-    id: 5,
-    title: 'Secret Project',
-    des: 'Want hints contact ',
-    img: 'secret.webp',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
-    link: '',
   },
 ]
 
