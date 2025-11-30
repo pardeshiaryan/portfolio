@@ -81,7 +81,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
+    id: 5,
     title: 'AI-Based Forest Degradation Monitoring Framework',
     des: 'Comprehensive web framework using AI and remote sensing for monitoring forest degradation - Major Project',
     img: '/forest-monitoring.png', // You'll need to add this image
@@ -113,12 +113,12 @@ export const projects = [
     link: 'https://github.com/pardeshiaryan/Audiocheck',
   },
   {
-    id: 5,
+    id: 1,
     title: 'Notion Clone',
     des: 'Full-featured Notion workspace clone with real-time collaboration and document management',
     img: '/notion-clone.png', // You'll need to add this image
     iconLists: ['/next.svg', '/re.svg', '/tail.svg', '/ts.svg'],
-    link: 'https://github.com/pardeshiaryan/Notion-Clone',
+    link: 'https://devnotion.aryanpardeshi.dev/',
   },
   {
     id: 6,
